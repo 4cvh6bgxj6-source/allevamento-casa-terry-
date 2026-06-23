@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  
+  --color-brand-cream: #FAF7F2;
+  --color-brand-dark: #231F1C;
+  --color-brand-medium: #473E38;
+  --color-brand-accent: #C5A880;
+  --color-brand-accent-dark: #A98E65;
+  --color-brand-accent-light: #F3ECE2;
+  --color-brand-sage: #8A9A86;
+}
+
+@layer utilities {
+  /* Elegant customized transitions and focus-rings to prevent looking standard */
+  .custom-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Customized scrollbar for high-end boutique feeling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9CFC1;
+  border-radius: 9999px;
+  border: 2px solid #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A880;
+}
+

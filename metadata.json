@@ -1,0 +1,6 @@
+{
+  "name": "Allevamento Casa Terry",
+  "description": "Sito ufficiale dell'Allevamento Casa Terry, allevamento biologico ed etico di cuccioli con amore, passione e pedigree certificato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
