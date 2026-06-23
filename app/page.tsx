@@ -44,7 +44,7 @@ interface Puppy {
   priceClass: string;
   birthDate: string;
   availableFrom: string;
-  status: "disponibile" | "prenotabile" | "in_arrivo" | "adottato" | "in_famiglia";
+  status: "disponibile" | "prenotabile" | "in_arrivo" | "in_famiglia";
   character: string[];
   description: string;
   imgUrl: string;
@@ -96,14 +96,14 @@ const PUPPIES_DATA: Puppy[] = [
     id: "ambra",
     name: "Ambra",
     breed: "Barboncino",
-    breedDetail: "Toy Albicocca (Cucciola)",
+    breedDetail: "Toy Rosso (Cucciola)",
     sex: "Femmina",
     priceClass: "Selezionata per Famiglia",
     birthDate: "18 Aprile 2026",
     availableFrom: "28 Giugno 2026",
     status: "in_famiglia",
     character: ["Equilibratissima", "Giocherellona", "Obbediente", "Dolce con i Bambini"],
-    description: "Ambra è una splendida cucciola di Barboncino Toy dal meraviglioso colore miele dorato (albicocca). Nata il 18 Aprile 2026, è vispa, dolcissima e perfettamente sana. Adora il gioco activo ed ha già iniziato con successo il programma di prima socializzazione.",
+    description: "Ambra è una splendida cucciola di Barboncino Toy dal meraviglioso colore rosso fulvo intenso. Nata il 18 Aprile 2026, è vispa, dolcissima e perfettamente sana. Adora il gioco attivo ed ha già iniziato con successo il programma di prima socializzazione.",
     imgUrl: "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/d5d2b1b58d3297a9ce5582a0a3776a87~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=10399&refresh_token=1c89fc97&x-expires=1782381600&x-signature=OZSSvluP4jxfregQwRJtcTlhZfU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=no1a",
     additionalImages: [
       "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=850"
@@ -111,7 +111,7 @@ const PUPPIES_DATA: Puppy[] = [
     parents: {
       father: "Ch. Romeo di Casa Terry (Toy Rosso, ENCI eccellente, PRA clear)",
       fatherHealth: "Certificato FSA Ufficiale • Riproduttore Selezionato",
-      mother: "Isotta di Casa Terry (Toy Albicocca, rotula certificata esente FSA)",
+      mother: "Isotta di Casa Terry (Toy Rosso, rotula certificata esente FSA)",
       motherHealth: "Lastre Ufficiali Rotula/Gomito Ok"
     }
   },
@@ -142,14 +142,14 @@ const PUPPIES_DATA: Puppy[] = [
     id: "sofia",
     name: "Sofia",
     breed: "Barboncino",
-    breedDetail: "Toy Fulvo Chiaro",
+    breedDetail: "Toy Rosso Brillante",
     sex: "Femmina",
     priceClass: "Elite Show",
     birthDate: "18 Aprile 2026",
     availableFrom: "28 Giugno 2026",
     status: "disponibile",
-    character: ["Graziosa", "Regale", "Super Affettuosa", "Adatta ad Anziani"],
-    description: "Sofia è una splendida cucciola di Barboncino Toy, nata il 18 Aprile 2026 (stessa nidiata di Ambra). Di colore fulvo chiaro lucido, è estremamente dolce, ricerca costantemente la carezza e si adatta squisitamente all'umore dei suoi compagni umani.",
+    character: ["Graziosa", "Regale", "Super Affettuoso", "Adatta ad Anziani"],
+    description: "Sofia è una splendida cucciola di Barboncino Toy, nata il 18 Aprile 2026 (stessa nidiata di Ambra). Di colore rosso fulvo lucido, è estremamente dolce, ricerca costantemente la carezza e si adatta squisitamente all'umore dei suoi compagni umani.",
     imgUrl: "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/eae8864fbab60c023fa1ce86dc5248d2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=10399&refresh_token=ead521c4&x-expires=1782381600&x-signature=ZxjdHmScMmtLnM%2Bf1LC4D7YVIY8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=no1a",
     additionalImages: [
       "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=850"
@@ -157,7 +157,7 @@ const PUPPIES_DATA: Puppy[] = [
     parents: {
       father: "Ch. Romeo di Casa Terry (Toy Rosso, ENCI eccellente, PRA clear)",
       fatherHealth: "Esame Ecocardiografico FSA Ok",
-      mother: "Ginevra My Fair Lady (Toy Apricot, Esente rotula grado 0)",
+      mother: "Ginevra My Fair Lady (Toy Rosso, Esente rotula grado 0)",
       motherHealth: "Certificazioni Genetiche Ufficiali"
     }
   },
@@ -165,14 +165,14 @@ const PUPPIES_DATA: Puppy[] = [
     id: "lilly",
     name: "Lilly",
     breed: "Barboncino",
-    breedDetail: "Toy Albicocca (Apricot)",
+    breedDetail: "Toy Rosso Intenso",
     sex: "Femmina",
     priceClass: "Prestigio",
     birthDate: "22 Febbraio 2024",
     availableFrom: "Disponibile",
     status: "in_famiglia",
     character: ["Curiosa", "Socievole", "Arguta", "Dolce Compagna"],
-    description: "Lilly è una dolcissima Barboncina Toy nata il 22 Febbraio 2024. Incanta per la sua andatura fiera e affettuosa. Trova sempre il modo di farsi notare con le svelti zampette delicate e adora accoccolarsi sulla spalla. Del tutto esente da perdita di pelo (pelo anallergico).",
+    description: "Lilly è una dolcissima Barboncina Toy nata il 22 Febbraio 2024. Incanta per la sua andatura fiera e affettuosa. Trova sempre il modo di farsi notare con le svelti zampette delicate e adora accoccolarsi sulla spalla. Di colore rosso intenso lucido, è del tutto esente da perdita di pelo (pelo anallergico).",
     imgUrl: "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/4adab7042207724b9066ad3dd17a9c61~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=10399&refresh_token=6f3a43ac&x-expires=1782381600&x-signature=ksXgGpIOopv4aiITMDOUfHlRyhs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=no1a",
     additionalImages: [
       "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=850"
@@ -180,7 +180,7 @@ const PUPPIES_DATA: Puppy[] = [
     parents: {
       father: "Ch. Romeo di Casa Terry (Toy Rosso, ENCI eccellente, PRA clear)",
       fatherHealth: "Ecocardiogramma Ok",
-      mother: "Mimi Jolie (Toy Apricot, dentatura corretta, esente rotula)",
+      mother: "Mimi Jolie (Toy Rosso, dentatura corretta, esente rotula)",
       motherHealth: "Test Genetici Completi Ok"
     }
   }
@@ -218,7 +218,7 @@ const PARENTS_DATA: Parent[] = [
   {
     id: "parent-ambra",
     name: "Ambra",
-    breed: "Barboncino Toy Albicocca",
+    breed: "Barboncino Toy Rosso",
     sex: "Femmina",
     title: "Soggetto Allevamento Bellezza",
     healthTests: [
@@ -259,116 +259,16 @@ export default function Home() {
   const [faqOpen, setFaqOpen] = useState<number | null>(null);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   
-  // Custom contact form states
-  const [formName, setFormName] = useState("");
-  const [formEmail, setFormEmail] = useState("");
-  const [formPhone, setFormPhone] = useState("");
-  const [formBreed, setFormBreed] = useState("");
-  const [formMessage, setFormMessage] = useState("");
-  const [formSubmitted, setFormSubmitted] = useState(false);
-
-  // Quiz interactive state
-  const [quizStep, setQuizStep] = useState(0); // 0: start, 1-4: questions, 5: result
-  const [quizAnswers, setQuizAnswers] = useState<Record<string, string>>({});
-
   // Filtered puppies
   const filteredPuppies = useMemo(() => {
     return PUPPIES_DATA.filter((pup) => {
       const matchBreed = filterBreed === "Tutti" || pup.breed === filterBreed;
       const matchStatus = filterStatus === "Tutti" || 
         (filterStatus === "Disponibili" && (pup.status === "disponibile" || pup.status === "prenotabile")) ||
-        (filterStatus === "In Famiglia" && pup.status === "in_famiglia") ||
-        (filterStatus === "Ceduti" && pup.status === "adottato");
+        (filterStatus === "In Famiglia" && pup.status === "in_famiglia");
       return matchBreed && matchStatus;
     });
   }, [filterBreed, filterStatus]);
-
-  // Handle quiz questions
-  const quizQuestions = useMemo(() => [
-    {
-      id: "space",
-      question: "Dove vivrà principalmente il cucciolo?",
-      options: [
-        { label: "Appartamento senza terrazzi esterni", value: "apartment" },
-        { label: "Casa con giardino recintato", value: "garden" },
-        { label: "Grande cortile o campagna aperta", value: "country" }
-      ]
-    },
-    {
-      id: "activity",
-      question: "Quanto tempo dedicate quotidianamente all'attività dinamica all'aperto?",
-      options: [
-        { label: "Passeggiate brevi attorno all'isolato (fino a 30 minuti)", value: "low" },
-        { label: "Passeggiate moderate, parchi ed esplorazione (1-2 ore)", value: "medium" },
-        { label: "Sportivo attivo, trekking, corse in montagna (oltre 2 ore)", value: "high" }
-      ]
-    },
-    {
-      id: "family",
-      question: "Chi compone principalmente il vostro nucleo familiare?",
-      options: [
-        { label: "Persona singola o coppia senza bambini piccoli", value: "couple" },
-        { label: "Famiglia vivace con bambini piccoli o neonati", value: "kids" },
-        { label: "Presenza di persone anziane che desiderano compagnia dolce", value: "senior" }
-      ]
-    },
-    {
-      id: "allergy",
-      question: "Ci sono soggetti con allergie o infastiditi dalla perdita di pelo?",
-      options: [
-        { label: "Sì, preferiamo assolutamente una razza anallergica (non perde pelo)", value: "hypo" },
-        { label: "No, non è un problema spazzolare regolarmente e raccogliere pelo", value: "none" }
-      ]
-    }
-  ], []);
-
-  const handleQuizAnswer = (questionId: string, optionValue: string) => {
-    const updatedAnswers = { ...quizAnswers, [questionId]: optionValue };
-    setQuizAnswers(updatedAnswers);
-
-    if (quizStep < quizQuestions.length) {
-      setQuizStep(quizStep + 1);
-    }
-  };
-
-  // Process quiz result
-  const quizResult = useMemo(() => {
-    if (quizStep !== quizQuestions.length + 1) return null;
-
-    const space = quizAnswers.space;
-    const activity = quizAnswers.activity;
-    const family = quizAnswers.family;
-
-    let breed = "Barboncino Toy Fulvo / Rosso";
-    let text = "Il compagno perfetto per voi è il Barboncino Toy Rosso o Fulvo! È anallergico al 100% (non perde pelo ed è privo di forfora volatile), straordinario per la vita da casa, ha un'intelligenza finissima che semplifica l'addestramento ed è sempre felice di giocare ed accogliere gli amici.";
-    let img = "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=700";
-    let whatsappMsg = "Ciao Casa Terry! Abbiamo fatto il vostro test sul sito ed il nostro match ideale è il Barboncino Toy Fulvo/Rosso. Vorremmo informazioni sulle vostre cucciolate disponibili o future programmate!";
-
-    if (activity === "high" || space === "garden" || space === "country") {
-      breed = "Barboncino Toy Rosso (Vivace e Sportivo)";
-      text = "Il vostro stile di vita dinamico richiama fortemente il carismatico Barboncino Toy Rosso! Sensibilissimo, affettuoso all'inverosimile con i bambini ed estremamente energico e gioioso all'aria aperta. Ama imparare giochi, correre in giardino ed è eccezionale per chi desidera un compagno vispo e salutare.";
-      img = "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&q=80&w=700";
-      whatsappMsg = "Ciao Casa Terry! Dal vostro test sul sito, il nostro compagno ideale risulta il vivace Barboncino Toy Rosso. Saremmo felici di ricevere info sui cuccioli disponibili!";
-    } else if (family === "senior" || space === "apartment") {
-      breed = "Barboncino Toy Albicocca (Calmo ed Empatico)";
-      text = "Il dolcissimo Barboncino Toy Albicocca (Apricot) è la vostra anima gemella! Pacato, infinitamente sensibile ed attento. Si adatta all'istante all'umore dei suoi cari, adora essere coccolato in poltrona e fare passeggiate tranquille nel parco. Perfetto per appartamento o compagnia dolce.";
-      img = "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?auto=format&fit=crop&q=80&w=700";
-      whatsappMsg = "Ciao Casa Terry! Il test ci ha indicato il dolcissimo Barboncino Toy Albicocca. Avete delle cucciolate di questa splendida razza per le quali chiedere info?";
-    }
-
-    return { breed, text, img, whatsappMsg };
-  }, [quizStep, quizAnswers, quizQuestions.length]);
-
-  const resetQuiz = () => {
-    setQuizAnswers({});
-    setQuizStep(0);
-  };
-
-  const handleContactSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formName || !formPhone) return;
-    setFormSubmitted(true);
-  };
 
   return (
     <div className="min-h-screen text-brand-dark bg-[#FAF7F2] font-sans selection:bg-brand-accent selection:text-white">
@@ -453,7 +353,6 @@ export default function Home() {
           <nav className="hidden lg:flex items-center gap-8 font-medium text-sm text-brand-medium" id="desktop-menu-nav">
             <a href="#cuccioli" className="hover:text-brand-accent transition-colors duration-200">I Cuccioli</a>
             <a href="#metodo" className="hover:text-brand-accent transition-colors duration-200">Il Nostro Metodo</a>
-            <a href="#test" className="hover:text-brand-accent transition-colors duration-200">Trova il tuo Cane</a>
             <a href="#faq" className="hover:text-brand-accent transition-colors duration-200">FAQ</a>
             <a href="#contatti" className="hover:text-brand-accent transition-colors duration-200">Contatti</a>
           </nav>
@@ -512,13 +411,6 @@ export default function Home() {
                   className="block py-2 text-base font-medium text-brand-dark hover:text-brand-accent border-b border-brand-accent-light"
                 >
                   Il Nostro Metodo
-                </a>
-                <a 
-                  href="#test" 
-                  onClick={() => setMenuOpen(false)}
-                  className="block py-2 text-base font-medium text-brand-dark hover:text-brand-accent border-b border-brand-accent-light"
-                >
-                  Trova il tuo Cane (Test)
                 </a>
                 <a 
                   href="#faq" 
@@ -774,10 +666,6 @@ export default function Home() {
                 <span className="w-2 h-2 rounded-full bg-brand-accent"></span>
                 In Famiglia
               </span>
-              <span className="text-xs bg-gray-100 text-gray-500 border border-gray-200 px-2.5 py-1 rounded-full flex items-center gap-1.5 font-medium">
-                <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
-                Già Ceduto/a
-              </span>
             </div>
           </div>
 
@@ -802,7 +690,7 @@ export default function Home() {
 
             {/* Filter by status */}
             <div className="flex bg-brand-cream p-1 rounded-lg border border-brand-accent/10 w-full sm:w-auto overflow-x-auto">
-              {["Tutti", "Disponibili", "In Famiglia", "Ceduti"].map((status) => (
+              {["Tutti", "Disponibili", "In Famiglia"].map((status) => (
                 <button
                   key={status}
                   onClick={() => setFilterStatus(status)}
@@ -832,16 +720,14 @@ export default function Home() {
                     disponibile: "bg-emerald-50 text-emerald-700 border-emerald-200",
                     prenotabile: "bg-amber-50 text-amber-700 border-amber-200",
                     in_arrivo: "bg-sky-50 text-sky-700 border-sky-200",
-                    in_famiglia: "bg-amber-50/40 text-brand-accent-dark border-brand-accent/20",
-                    adottato: "bg-gray-100 text-gray-500 border-gray-200"
+                    in_famiglia: "bg-amber-50/40 text-brand-accent-dark border-brand-accent/20"
                   };
                   
                   const statusLabel = {
                     disponibile: "Disponibile subito",
                     prenotabile: "Richiedi Info",
                     in_arrivo: "In arrivo",
-                    in_famiglia: "In Famiglia (Non in vendita)",
-                    adottato: "Ceduto/a"
+                    in_famiglia: "In Famiglia (Non in vendita)"
                   };
 
                   return (
@@ -935,7 +821,7 @@ export default function Home() {
                               >
                                 <MessageCircle className="w-4 h-4 fill-white" />
                               </a>
-                            ) : puppy.status !== "adottato" ? (
+                            ) : (
                               <a
                                 href={`https://wa.me/393882412052?text=Ciao%20Allevamento%20Casa%20Terry!%20Siamo%20innamorati%20di%20${puppy.name},%20splendido%20Barboncino/${puppy.breed}%20nato%20il%20${puppy.birthDate}.%20%C3%88%20ancora%20disponibile?%20Vorremmo%20un%20appuntamento.`}
                                 target="_blank"
@@ -946,8 +832,6 @@ export default function Home() {
                               >
                                 <MessageCircle className="w-4 h-4 fill-white" />
                               </a>
-                            ) : (
-                              <span className="text-xs text-brand-medium italic">Ceduto a famiglia</span>
                             )}
                           </div>
                         </div>
@@ -1131,7 +1015,7 @@ export default function Home() {
                           <span>CHIEDI PROSSIME CUCCIOLATE</span>
                         </a>
                       </>
-                    ) : selectedPuppy.status !== "adottato" ? (
+                    ) : (
                       <>
                         <a
                           href={`https://wa.me/393882412052?text=Ciao%20Allevamento%20Casa%20Terry!%20Desidero%20riservare%20un%20appuntamento%20per%20conoscere%20il%20cucciolotto%20${selectedPuppy.name}%20(${selectedPuppy.breedDetail}).%20Potete%20mandarmi%20maggiori%20foto%20e%20prezzo?%20Grazie.`}
@@ -1147,10 +1031,6 @@ export default function Home() {
                           Il numero telefonico <strong className="font-semibold">388 2412052</strong> è attivo 24/7 per messaggi o chiamate conoscitive sul cucciolo.
                         </p>
                       </>
-                    ) : (
-                      <div className="bg-gray-100 border border-gray-200 text-gray-500 rounded-xl p-3 text-center text-xs font-semibold">
-                        Questo splendido cucciolo è già felicemente ceduto alla sua nuova famiglia. Contattaci per cucciolate programmate della medesima linea genetica.
-                      </div>
                     )}
                   </div>
                 </div>
@@ -1159,136 +1039,6 @@ export default function Home() {
           </motion.div>
         )}
       </AnimatePresence>
-
-      {/* QUIZ WIDGET - INTERACTIVE AND BESPOKE FINDER */}
-      <section className="bg-brand-dark text-white py-20 divide-y md:py-28 relative" id="test">
-        <div className="absolute inset-0 bg-[radial-gradient(#C5A880_1px,transparent_1px)] [background-size:16px_16px] opacity-10"></div>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
-          <div className="text-center max-w-2xl mx-auto space-y-4 mb-12">
-            <span className="text-brand-accent text-xs font-bold uppercase tracking-[0.2em] block">Strumento Guidato</span>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold">
-              Qual è la Razza Perfetta per la Tua Famiglia?
-            </h2>
-            <p className="text-white/70 text-xs sm:text-sm font-light">
-              Rispondi a 4 semplici domande basate sul tuo tempo, abitazione ed allergie per scoprire quale delle nostre linee di cuccioli si integrerà armonicamente coi tuoi ritmi domestici.
-            </p>
-          </div>
-
-          <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
-            {/* Step 0: Initial Screen */}
-            {quizStep === 0 && (
-              <div className="text-center py-6 space-y-6">
-                <div className="bg-brand-accent/20 text-brand-accent w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-sm">
-                  <Compass className="w-8 h-8" />
-                </div>
-                <div className="space-y-2">
-                  <h3 className="font-serif text-xl sm:text-2xl font-bold">Inizia il Test di Compatibilità</h3>
-                  <p className="text-white/60 text-xs sm:text-sm font-light max-w-lg mx-auto">
-                    Evitiamo adozioni impulsive. Questo piccolo algoritmo è elaborato con la nostra esperienza di allevatori per garantirti armonia vitale col tuo cane.
-                  </p>
-                </div>
-                <button
-                  onClick={() => setQuizStep(1)}
-                  className="bg-brand-accent hover:bg-brand-accent-dark text-brand-dark hover:text-white font-bold py-3.5 px-8 rounded-xl transition-all shadow-md active:scale-95 cursor-pointer text-xs sm:text-sm tracking-wide"
-                >
-                  SCOPRI IL TUO MATCH IDEALE
-                </button>
-              </div>
-            )}
-
-            {/* Steps 1-4: Questions */}
-            {quizStep > 0 && quizStep <= quizQuestions.length && (
-              <div className="space-y-8 animate-fade-in">
-                {/* Progress bar */}
-                <div className="flex justify-between items-center">
-                  <span className="text-[10px] uppercase font-bold tracking-widest text-brand-accent">
-                    Domanda {quizStep} di {quizQuestions.length}
-                  </span>
-                  <span className="text-xs text-white/50">{Math.round((quizStep / quizQuestions.length) * 100)}% Completato</span>
-                </div>
-                <div className="w-full bg-white/10 h-1.5 rounded-full overflow-hidden">
-                  <div 
-                    className="bg-brand-accent h-full transition-all duration-300"
-                    style={{ width: `${(quizStep / quizQuestions.length) * 100}%` }}
-                  ></div>
-                </div>
-
-                <div className="space-y-4">
-                  <h3 className="font-serif text-lg sm:text-xl font-medium">
-                    {quizQuestions[quizStep - 1].question}
-                  </h3>
-                  <div className="grid grid-cols-1 gap-3.5 pt-2">
-                    {quizQuestions[quizStep - 1].options.map((option, index) => (
-                      <button
-                        key={index}
-                        onClick={() => handleQuizAnswer(quizQuestions[quizStep - 1].id, option.value)}
-                        className="bg-white/5 hover:bg-white/10 active:bg-white/15 border border-white/10 hover:border-brand-accent rounded-xl p-4 sm:p-5 text-left text-xs sm:text-sm font-medium transition-all cursor-pointer flex justify-between items-center group"
-                      >
-                        <span>{option.label}</span>
-                        <ArrowRight className="w-4 h-4 text-white/40 group-hover:text-brand-accent group-hover:translate-x-1.5 transition-all" />
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Back button */}
-                <button
-                  onClick={() => setQuizStep(quizStep - 1)}
-                  className="text-xs text-white/40 hover:text-white underline cursor-pointer"
-                >
-                  Indietro
-                </button>
-              </div>
-            )}
-
-            {/* Step 5: Results */}
-            {quizStep === quizQuestions.length + 1 && quizResult && (
-              <div className="animate-fade-in space-y-6 sm:space-y-0 sm:grid sm:grid-cols-12 sm:gap-8 items-center py-4">
-                {/* Result image */}
-                <div className="col-span-4 aspect-square relative rounded-2xl overflow-hidden bg-brand-accent-light mb-6 sm:mb-0 shadow-lg leading-none border border-white/10">
-                  <Image 
-                    src={quizResult.img} 
-                    alt="Cane compatibile" 
-                    fill 
-                    className="object-cover"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-
-                {/* Result text */}
-                <div className="col-span-8 space-y-5 text-left">
-                  <span className="text-[10px] uppercase font-bold text-brand-accent tracking-widest block">Il vostro compagno perfetto è...</span>
-                  <h3 className="font-serif text-2xl sm:text-3xl font-bold text-white leading-none">
-                    {quizResult.breed}
-                  </h3>
-                  <p className="text-white/70 text-xs sm:text-sm font-light leading-relaxed">
-                    {quizResult.text}
-                  </p>
-
-                  <div className="flex flex-col sm:flex-row gap-3 pt-2">
-                    <a
-                      href={`https://wa.me/393882412052?text=${encodeURIComponent(quizResult.whatsappMsg)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-[#25D366] hover:bg-[#20ba59] text-brand-dark hover:text-white font-bold py-3 px-5 rounded-xl text-xs flex items-center justify-center gap-2 cursor-pointer transition-all shadow-md hover:shadow-emerald-900/30 font-bold"
-                    >
-                      <MessageCircle className="w-4 h-4 fill-white" />
-                      <span>CHIEDI CUCCIOLI DISPONIBILI SUBITO</span>
-                    </a>
-                    
-                    <button
-                      onClick={resetQuiz}
-                      className="border border-white/25 hover:border-white text-white/80 hover:text-white py-3 px-5 rounded-xl text-xs font-semibold cursor-pointer transition-all"
-                    >
-                      Rifai il Test
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-        </div>
-      </section>
 
 
 
@@ -1404,210 +1154,99 @@ export default function Home() {
         </div>
       </section>
 
-      {/* INTERACTIVE COMPREHENSIVE CONTACT & FORM SECTION */}
-      <section className="py-20 md:py-28 relative" id="contatti">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-12 items-stretch">
-            {/* Left Column Information */}
-            <div className="lg:col-span-5 space-y-8 flex flex-col justify-between">
-              <div>
-                <span className="text-xs uppercase tracking-[0.2em] font-semibold text-brand-accent block mb-2">Canale Diretto</span>
-                <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">
-                  Mettiti in Contatto
-                </h2>
-                <div className="w-16 h-0.5 bg-brand-accent mt-4"></div>
-                <p className="text-brand-medium text-xs sm:text-sm font-light mt-4 leading-relaxed">
-                  Siamo pronti ad accoglierti con cortesia e professionalità. Scegli il canale che preferisci. Per un contatto istantaneo e rapido, fai click sul numero del telefono per avviare subito la conversazione WhatsApp automatica.
-                </p>
-              </div>
+      {/* DIRECT CONTACT CHANNELS */}
+      <section className="py-20 md:py-28 relative bg-[#FAF7F2]" id="contatti">
+        {/* Decorative background gradients */}
+        <div className="absolute top-[-100px] left-[-100px] w-[350px] h-[350px] rounded-full bg-brand-accent-light/35 blur-3xl -z-10"></div>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
+            <span className="text-xs uppercase tracking-[0.2em] font-semibold text-brand-accent block">Canali Diretti</span>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">
+              Mettiti in Contatto con Noi
+            </h2>
+            <div className="w-12 h-0.5 bg-brand-accent mx-auto mt-4"></div>
+            <p className="text-brand-medium text-xs sm:text-sm font-light leading-relaxed">
+              Siamo sempre felici di accoglierti coi nostri piccoli cuccioli. Scegli il canale che preferisci per richiedere informazioni: siamo reperibili per garantirti un supporto serio ed eccellente.
+            </p>
+          </div>
 
-              {/* Informative direct channels */}
-              <div className="space-y-6 py-6 border-y border-brand-accent/15 leading-relaxed">
-                {/* WHATSAPP CLICK FOR QUICK CONVo */}
-                <a 
-                  href="https://wa.me/393882412052?text=Ciao%20Allevamento%20Casa%20Terry!%20Vorrei%20ricevere%20informazioni%20veloci%20sulle%20prossime%20visite%20ed%20adozioni%20possibili."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200/50 transition-colors cursor-pointer group"
-                  id="direct-whatsapp-panel-link"
-                >
-                  <div className="bg-[#25D366] text-white p-3 rounded-xl shadow-md group-hover:scale-105 transition-transform">
-                    <MessageCircle className="w-6 h-6 fill-white" />
-                  </div>
-                  <div>
-                    <span className="text-[10px] uppercase font-bold tracking-widest text-emerald-800">WhatsApp Chat Rapida (Cellulare)</span>
-                    <p className="font-bold text-brand-dark text-base sm:text-lg group-hover:text-emerald-700 transition-colors">388 2412052</p>
-                  </div>
-                </a>
-
-                {/* Email Channel */}
-                <div className="flex items-center gap-4 p-2 sm:px-4">
-                  <div className="bg-brand-dark text-brand-accent p-3.5 rounded-xl border border-brand-accent/20">
-                    <Mail className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <span className="text-[10px] uppercase font-bold tracking-widest text-brand-medium">Scrivici una Mail</span>
-                    <p className="font-semibold text-brand-dark text-xs sm:text-sm">
-                      <a href="mailto:teresa1978@hotmail.it" className="hover:text-brand-accent transition-colors">
-                        teresa1978@hotmail.it
-                      </a>
-                    </p>
-                  </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            {/* WhatsApp Card */}
+            <a 
+              href="https://wa.me/393882412052?text=Ciao%20Allevamento%20Casa%20Terry!%20Vorrei%20ricevere%20informazioni%20veloci%20sulle%20prossime%20visite%20ed%20adozioni%20possibili."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white p-8 rounded-3xl border border-brand-accent/15 hover:border-brand-accent/40 shadow-sm hover:shadow-md transition-all flex flex-col justify-between items-center text-center group cursor-pointer"
+            >
+              <div className="space-y-4">
+                <div className="bg-[#25D366] text-white p-4 rounded-2xl shadow-sm inline-block group-hover:scale-105 transition-transform">
+                  <MessageCircle className="w-7 h-7 fill-white" />
                 </div>
-
-                {/* Physical Address */}
-                <div className="flex items-center gap-4 p-2 sm:px-4">
-                  <div className="bg-brand-dark text-brand-accent p-3.5 rounded-xl border border-brand-accent/20">
-                    <MapPin className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <span className="text-[10px] uppercase font-bold tracking-widest text-brand-medium">Sede Allevamento</span>
-                    <p className="font-semibold text-brand-dark text-xs sm:text-sm">Via Tassona 17 A - Mercatino Conca (PU), Marche, Italia</p>
-                  </div>
+                <div className="space-y-1">
+                  <h3 className="font-serif text-lg font-bold text-brand-dark">Chat Rapida WhatsApp</h3>
+                  <p className="text-brand-medium text-xs font-light leading-relaxed">
+                    Il metodo più veloce per chattare direttamente con Filippo o Terry per ogni dubbio o foto.
+                  </p>
                 </div>
               </div>
+              <div className="mt-6">
+                <span className="text-[10px] uppercase font-bold tracking-widest text-[#128C7E] block mb-1">Fai click per scriverci</span>
+                <p className="font-bold text-brand-dark text-base sm:text-lg group-hover:text-[#128C7E] transition-colors">388 2412052</p>
+              </div>
+            </a>
 
-              {/* Social Channels */}
-              <div className="flex items-center gap-4">
-                <span className="text-xs uppercase font-bold text-brand-medium">Seguici per i video giornalieri:</span>
-                <div className="flex gap-2">
-                  <a href="https://instagram.com" target="_blank" rel="noreferrer" className="bg-brand-cream border border-brand-accent/20 hover:border-brand-accent text-brand-medium hover:text-brand-accent p-2.5 rounded-full transition-all">
-                    <Instagram className="w-4 h-4" />
-                  </a>
-                  <a href="https://facebook.com" target="_blank" rel="noreferrer" className="bg-brand-cream border border-brand-accent/20 hover:border-brand-accent text-brand-medium hover:text-brand-accent p-2.5 rounded-full transition-all">
-                    <Facebook className="w-4 h-4" />
-                  </a>
+            {/* Email Card */}
+            <a 
+              href="mailto:teresa1978@hotmail.it"
+              className="bg-white p-8 rounded-3xl border border-brand-accent/15 hover:border-brand-accent/40 shadow-sm hover:shadow-md transition-all flex flex-col justify-between items-center text-center group cursor-pointer"
+            >
+              <div className="space-y-4">
+                <div className="bg-brand-dark text-brand-accent p-4 rounded-2xl shadow-sm inline-block group-hover:scale-105 transition-transform border border-brand-accent/10">
+                  <Mail className="w-7 h-7" />
                 </div>
+                <div className="space-y-1">
+                  <h3 className="font-serif text-lg font-bold text-brand-dark">Invia una Mail</h3>
+                  <p className="text-brand-medium text-xs font-light leading-relaxed">
+                    Per richieste di affido formali o comunicazioni che richiedono una risposta tracciata.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-6">
+                <span className="text-[10px] uppercase font-bold tracking-widest text-brand-accent block mb-1">Scrivici a:</span>
+                <p className="font-bold text-brand-dark text-sm sm:text-base group-hover:text-brand-accent transition-colors">teresa1978@hotmail.it</p>
+              </div>
+            </a>
+
+            {/* Address Card */}
+            <div className="bg-white p-8 rounded-3xl border border-brand-accent/15 shadow-sm flex flex-col justify-between items-center text-center">
+              <div className="space-y-4">
+                <div className="bg-brand-dark text-brand-accent p-4 rounded-2xl shadow-sm inline-block border border-brand-accent/10">
+                  <MapPin className="w-7 h-7" />
+                </div>
+                <div className="space-y-1">
+                  <h3 className="font-serif text-lg font-bold text-brand-dark">Sede Allevamento</h3>
+                  <p className="text-brand-medium text-xs font-light leading-relaxed">
+                    Vieni a conoscerci di persona! Riceviamo solo su appuntamento programmato per non disturbare la quiete dei cuccioli.
+                  </p>
+                </div>
+              </div>
+              <div className="mt-6">
+                <span className="text-[10px] uppercase font-bold tracking-widest text-brand-medium block mb-1">Ci troviamo in:</span>
+                <p className="font-bold text-brand-dark text-xs sm:text-sm">Via Tassona 17 A<br/>Mercatino Conca (PU), Marche</p>
               </div>
             </div>
+          </div>
 
-            {/* Right Column Interactive Booking Form */}
-            <div className="lg:col-span-7 mt-12 lg:mt-0">
-              <div className="bg-white p-6 sm:p-10 rounded-3xl border border-brand-accent/15 shadow-xl">
-                {!formSubmitted ? (
-                  <form onSubmit={handleContactSubmit} className="space-y-6" id="contact-booking-form">
-                    <div className="space-y-1">
-                      <h3 className="font-serif text-xl sm:text-2xl font-bold text-brand-dark">Richiedi una Richiamata</h3>
-                      <p className="text-brand-medium text-xs font-light">Compila il modulo per ricevere dettagli catalogati completi.</p>
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {/* Name input */}
-                      <div className="space-y-1">
-                        <label className="text-xs font-bold uppercase tracking-wider text-brand-medium flex items-center gap-1">
-                          <User className="w-3.5 h-3.5" /> Nome e Cognome
-                        </label>
-                        <input
-                          type="text"
-                          required
-                          value={formName}
-                          onChange={(e) => setFormName(e.target.value)}
-                          className="w-full bg-[#FAF7F2] border border-brand-accent/20 focus:border-brand-accent rounded-xl p-3 text-xs sm:text-sm focus:outline-none custom-ring"
-                          placeholder="es. Mario Rossi"
-                        />
-                      </div>
-
-                      {/* Phone input */}
-                      <div className="space-y-1">
-                        <label className="text-xs font-bold uppercase tracking-wider text-brand-medium flex items-center gap-1">
-                          <Phone className="w-3.5 h-3.5" /> Telefono Cellulare
-                        </label>
-                        <input
-                          type="tel"
-                          required
-                          value={formPhone}
-                          onChange={(e) => setFormPhone(e.target.value)}
-                          className="w-full bg-[#FAF7F2] border border-brand-accent/20 focus:border-brand-accent rounded-xl p-3 text-xs sm:text-sm focus:outline-none custom-ring"
-                          placeholder="es. 347 1234567"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {/* Email input */}
-                      <div className="space-y-1">
-                        <label className="text-xs font-bold uppercase tracking-wider text-brand-medium flex items-center gap-1">
-                          <Mail className="w-3.5 h-3.5" /> Email
-                        </label>
-                        <input
-                          type="email"
-                          value={formEmail}
-                          onChange={(e) => setFormEmail(e.target.value)}
-                          className="w-full bg-[#FAF7F2] border border-brand-accent/20 focus:border-brand-accent rounded-xl p-3 text-xs sm:text-sm focus:outline-none custom-ring"
-                          placeholder="mario.rossi@email.it"
-                        />
-                      </div>
-
-                      {/* Select Breed of Choice */}
-                      <div className="space-y-1">
-                        <label className="text-xs font-bold uppercase tracking-wider text-brand-medium">{"Scegli la Razza d'interesse"}</label>
-                        <select
-                          value={formBreed}
-                          onChange={(e) => setFormBreed(e.target.value)}
-                          className="w-full bg-[#FAF7F2] border border-brand-accent/20 focus:border-brand-accent rounded-xl p-3 text-xs sm:text-sm focus:outline-none cursor-pointer focus:ring-1 focus:ring-brand-accent"
-                        >
-                          <option value="">Seleziona...</option>
-                          <option value="Barboncino Toy Rosso / Fulvo">Barboncino Toy Rosso / Fulvo</option>
-                          <option value="Barboncino Toy Albicocca / Apricot">Barboncino Toy Albicocca / Apricot</option>
-                          <option value="Altro / Non ho preferenze">Altro / Non ho preferenze</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    {/* Rich text messaging */}
-                    <div className="space-y-1">
-                      <label className="text-xs font-bold uppercase tracking-wider text-brand-medium">Il vostro nucleo ed abitudini (Opzionale)</label>
-                      <textarea
-                        rows={4}
-                        value={formMessage}
-                        onChange={(e) => setFormMessage(e.target.value)}
-                        className="w-full bg-[#FAF7F2] border border-brand-accent/20 focus:border-brand-accent rounded-xl p-3 text-xs sm:text-sm focus:outline-none custom-ring resize-none leading-relaxed"
-                        placeholder="Raccontaci brevemente della tua famiglia, se possedete già cani ed il tempo dedicato alla gestione domestica..."
-                      ></textarea>
-                    </div>
-
-                    {/* Action button */}
-                    <button
-                      type="submit"
-                      className="w-full bg-brand-dark hover:bg-brand-medium active:scale-[0.98] transition-all text-white py-3.5 rounded-xl text-xs sm:text-sm tracking-wide font-bold shadow-md cursor-pointer"
-                    >
-                      INVIA RICHIESTA INFORMAZIONI E CONTATTO
-                    </button>
-                    
-                    <p className="text-[10px] text-brand-medium text-center font-light leading-relaxed">
-                      Sotto tutela della privacy canina e personale. I vostri recapiti verranno usati esclusivamente da Filippo e Terry per contattarvi. Rispettiamo il codice GDPR.
-                    </p>
-                  </form>
-                ) : (
-                  <motion.div 
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    className="text-center py-12 space-y-6"
-                    id="form-success-state"
-                  >
-                    <div className="bg-brand-sage bg-opacity-15 text-brand-sage w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-sm border border-brand-sage/20">
-                      <Check className="w-8 h-8" />
-                    </div>
-                    <div className="space-y-2">
-                      <h3 className="font-serif text-2xl font-bold text-brand-dark">Grazie Mille {formName}!</h3>
-                      <p className="text-brand-medium text-xs sm:text-sm font-light max-w-lg mx-auto leading-relaxed">
-                        Abbiamo registrato con successo la vostra richiesta di informazioni. Uno dei nostri svezzatori (Filippo o Terry) vi richiamerà al cellulare <strong className="font-semibold">{formPhone}</strong> entro 4 ore.
-                      </p>
-                    </div>
-                    
-                    <div className="pt-6">
-                      <a
-                        href={`https://wa.me/393882412052?text=Ciao%20Allevamento%20Casa%20Terry!%20Sono%20${formName}%20ed%20ho%20appena%20inviato%20il%20modulo%20recapiti%20dal%20sito.%20Vorrei%20poter%20parlare%20con%20voi.`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex bg-[#25D366] hover:bg-[#20ba59] text-white font-bold py-3 px-6 rounded-xl text-xs items-center gap-2 cursor-pointer shadow transition-all"
-                      >
-                        <MessageCircle className="w-4 h-4 fill-white" />
-                        <span>VELOCIZZA SU WHATSAPP ADESSO</span>
-                      </a>
-                    </div>
-                  </motion.div>
-                )}
+          <div className="mt-12 text-center space-y-4">
+            <div className="flex items-center justify-center gap-4">
+              <span className="text-xs uppercase font-bold text-brand-medium tracking-wider">Seguici per i video giornalieri dei cuccioli:</span>
+              <div className="flex gap-2">
+                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="bg-brand-cream border border-brand-accent/20 hover:border-brand-accent text-brand-medium hover:text-brand-accent p-2.5 rounded-full transition-all">
+                  <Instagram className="w-4 h-4" />
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer" className="bg-brand-cream border border-brand-accent/20 hover:border-brand-accent text-brand-medium hover:text-brand-accent p-2.5 rounded-full transition-all">
+                  <Facebook className="w-4 h-4" />
+                </a>
               </div>
             </div>
           </div>
@@ -1635,7 +1274,6 @@ export default function Home() {
             <div className="flex flex-col space-y-2 text-xs sm:text-sm text-white/70">
               <a href="#cuccioli" className="hover:text-brand-accent transition-colors">La Galleria</a>
               <a href="#metodo" className="hover:text-brand-accent transition-colors">Il Nostro Metodo Etico</a>
-              <a href="#test" className="hover:text-brand-accent transition-colors">Test del Cane Compatibile</a>
               <a href="#faq" className="hover:text-brand-accent transition-colors">Domande Frequenti</a>
             </div>
           </div>
